@@ -1,0 +1,16 @@
+{
+  "name": "firestore-scaping",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r ts-node/register src/index.ts"
+  },
+  "dependencies": {
+    "firebase-admin": "^8.12.1",
+    "xlsx": "^0.16.2"
+  },
+  "devDependencies": {
+    "@types/xlsx": "^0.0.36",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}

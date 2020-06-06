@@ -1,0 +1,3 @@
+config/firebase.ts
+node_modules
+output/**
