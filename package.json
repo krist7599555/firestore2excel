@@ -2,13 +2,17 @@
   "name": "firestore-scaping",
   "license": "MIT",
   "scripts": {
-    "start": "node -r ts-node/register src/index.ts"
+    "start": "node -r ts-node/register src/index.ts",
+    "flat": "nodemon --ext ts --exec 'ts-node ./src/flattenKeys.ts'"
   },
   "dependencies": {
+    "dayjs": "^1.8.28",
     "firebase-admin": "^8.12.1",
+    "lodash": "^4.17.15",
     "xlsx": "^0.16.2"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.155",
     "@types/xlsx": "^0.0.36",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.5"
